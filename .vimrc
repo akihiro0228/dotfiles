@@ -22,27 +22,8 @@ NeoBundle 'Shougo/vimproc', {
     \ 'unix' : 'make -f make_unix.mak',
   \ },
 \ }
-NeoBundle 'ujihisa/unite-locate'
-NeoBundle 'violetyk/cake.vim'
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'taglist.vim'
-NeoBundle 'ZenCoding.vim'
-NeoBundle 'ref.vim'
 NeoBundle 'The-NERD-tree'
-NeoBundle 'The-NERD-Commenter'
-NeoBundle 'fugitive.vim'
-NeoBundle 'TwitVim'
 NeoBundle 'thinca/vim-quickrun'
-NeoBundle 'thinca/vim-localrc'
-NeoBundle 'dbext.vim'
-NeoBundle 'rails.vim'
-NeoBundle 'Gist.vim'
-NeoBundle 'motemen/hatena-vim'
-NeoBundle 'mattn/webapi-vim'
-NeoBundle 'mattn/unite-advent_calendar'
-NeoBundle 'open-browser.vim'
-NeoBundle 'ctrlp.vim'
-NeoBundle 'jelera/vim-javascript-syntax'
 
 " Color Scheme
 NeoBundle 'altercation/vim-colors-solarized'
