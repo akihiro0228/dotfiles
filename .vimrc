@@ -24,6 +24,8 @@ NeoBundle 'Shougo/vimproc', {
 \ }
 NeoBundle 'The-NERD-tree'
 NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'editorconfig/editorconfig-vim'
 
 " Color Scheme
 NeoBundle 'altercation/vim-colors-solarized'
@@ -71,6 +73,9 @@ au BufNewFile,BufRead *.tx :set filetype=html
 " *.t *.psgiをperlファイルとして扱う
 au BufNewFile,BufRead *.psgi :set filetype=perl
 au BufNewFile,BufRead *.t :set filetype=perl
+
+" *.coffeeをcoffeeファイルとして扱う
+au BufNewFile,BufRead *.coffee :set filetype=coffee
 
 " *.mdをmarkdownファイルとして扱う
 "au BufNewFile,BufRead *.md :set filetype=markdown
