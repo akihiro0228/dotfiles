@@ -6,7 +6,7 @@ filetype plugin indent off
 
 if has('vim_starting')
   set runtimepath+=~/.vim/bundle/neobundle.vim/
-  call neobundle#rc(expand('~/.vim/bundle/'))
+  call neobundle#begin(expand('~/.vim/bundle/'))
 endif
 
 NeoBundle 'Shougo/neobundle.vim'
@@ -30,6 +30,7 @@ NeoBundle 'editorconfig/editorconfig-vim'
 " Color Scheme
 NeoBundle 'altercation/vim-colors-solarized'
 
+call neobundle#end()
 
 "----------------------------------------------------
 "" neocomplete.vim
@@ -108,16 +109,5 @@ set number
 
 set clipboard+=unnamed
 set clipboard+=autoselect
-
-" カーソルを自動的に()の中へ
-" imap {} {}<Left>
-" imap [] []<Left>
-" imap () ()<Left>
-" imap "" ""<Left>
-" imap '' ''<Left>
-" imap <> <><Left>
-" imap // //<left>
-" imap /// ///<left>
-
 
 filetype plugin indent on
